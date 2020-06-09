@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css");
+*{
+    font-family: "Montserrat", sans-serif !important;
+}
+
+.home{
+    background-color: #292D2E;
+    height: 80vh;
+    color: white;
+}
+
+.quote{
+    font-size: 30px;
+}
+
+button{
+    border: 3px solid #0096ea;
+    border-radius: 20px;
+    outline: none;
+    color: white;
+    background-color: #0096ea;
+}
+
+button:focus{
+    outline: none;
+}
+
+button:hover{
+    background-color: #0096ea;
+    color: white;
+    border: 3px solid lightblue;
+}
