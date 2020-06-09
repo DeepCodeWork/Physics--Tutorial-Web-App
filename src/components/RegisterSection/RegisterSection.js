@@ -13,21 +13,19 @@ const RegisterSection  = () => {
                 <div className = "container">
                     <SectionTitle title="Register Yourself!"/>
                     <div className = "row pt-3">
-                        <div className="col-lg-8 offset-lg-2">
+                        <div className="col-lg-10 offset-lg-1">
                             <div className = "row">
-                                <div>
-                                    <button>Login</button>
-                                    <button>Signup</button>
+                                
+                            </div>
+                           <div className={classes.loginSignupBox}>
+                           <div className = "row">
+                                <div className = {classes.sidepanel+" col-lg-7"}>
+                                </div>
+                                <div className = "col-lg-5">
+                                <SignupSection/>
                                 </div>
                             </div>
-                            <div className = "row">
-                                <div className = "col-lg-6">
-                                    
-                                </div>
-                                <div className = "col-lg-6">
-
-                                </div>
-                            </div>
+                           </div>
                         </div>
                     </div>
                 </div>

@@ -9,22 +9,22 @@ const Features = (props) => {
             <div className = "col-lg-3">
                 <Feature icon = " mdi mdi-speedometer"
                     title = "Fast"
-                    body = "Fast load times and lag free interaction, my highest priority."></Feature>
+                    body = "Fast team connect and lag free interaction, our highest priority."></Feature>
             </div>
             <div className = "col-lg-3">
                 <Feature icon = " mdi mdi-cellphone-link"
                     title = "Responsive"
-                    body = "My layouts will work on any device, big or small any size"></Feature>
+                    body = "Our App will work on any device, big or small any size"></Feature>
             </div>
             <div className = "col-lg-3">
                 <Feature icon = " mdi mdi-lightbulb"
                     title = "Intuitive"
-                    body = "Strong preference for easy to use, intuitive UX/UI."></Feature>
+                    body = "Strong preference for easy to use, ineractive creative ideas."></Feature>
             </div>
             <div className = "col-lg-3">    
                 <Feature icon = " mdi mdi-rocket"
                 title = "Dynamic"
-                body = "Websites don't have to be static, I love making pages come to life."></Feature>
+                body = "Physics don't have to be static, I love making it come to life."></Feature>
             </div>
         </div>
     );

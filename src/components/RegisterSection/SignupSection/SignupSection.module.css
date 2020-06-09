@@ -1,0 +1,28 @@
+.panel{
+    background-color: #292D2E ;
+}
+
+
+.panel h4{
+    color: #646c74 ;
+}
+
+.panel h6{
+    color: #0096ea ;
+}
+
+.panel button:hover{
+    border: none;
+}
+
+.panel a button{
+    border: none;
+    outline: none;
+    background-color: #292D2E;
+    border-radius: 5px;
+    color: #0096ea;
+}
+
+.panel a button:hover{
+    color: white;
+}
