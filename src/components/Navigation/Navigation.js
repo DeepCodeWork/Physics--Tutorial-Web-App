@@ -6,7 +6,7 @@ import NavigationItems from './NavigationItems/NavigationItems';
 
 const Navigation = () => {
     const navBar = 
-        <nav className = {classes.navBar + " navbar navbar-expand-lg navbar-dark"}>
+        <nav className = {classes.navBar + " navbar navbar-expand-lg navbar-dark fixed-top"}>
             <div className = "container">
                 {/* {<Logo className = {classes.logo}/>} */}
                 <a className = {classes.navbarBrand+" navbar-brand ml-1 text-white"}> <span style={{color:"#0096ea"}}>E</span><span style={{color:"white"}}>dunomics</span></a>

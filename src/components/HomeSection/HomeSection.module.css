@@ -6,8 +6,9 @@
 
 .home{
     background-color: #292D2E;
-    height: 80vh;
+    height: 85vh;
     color: white;
+    margin-top: 50px;
 }
 
 .quote{
@@ -31,3 +32,9 @@ button:hover{
     color: white;
     border: 3px solid lightblue;
 }
+
+@media(min-width: 480px) {
+    body {
+      height: 100vh;
+    }
+  }
